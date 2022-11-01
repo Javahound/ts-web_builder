@@ -22,7 +22,7 @@ const Header = () => {
                 </ul>
                 <h2 className='cursor-pointer px-4 md:px-0 lg:px-0'>
                     <Link href='/'>
-                        <span className="md:hidden lg:flex font-bold text-center mlg:text-xl lg:px-4  text-transparent bg-clip-text bg-gradient-to-r from-[#576ad2] to-[#576ad2]">TS Website Creator</span>
+                        <span className="md:hidden lg:flex font-bold text-center mlg:text-xl lg:px-4  text-transparent bg-clip-text bg-gradient-to-r from-[#576ad2] to-[#576ad2]">TS Web Builder</span>
                     </Link>
                 </h2>
                 <ul className="hidden md:flex mt-2 px-4 md:px-0">
@@ -47,12 +47,12 @@ const Header = () => {
                 <div>
                     <div className='flex w-full items-center justify-between'>
                         <Image src="/ts_logo.png" alt="/" width='75' height='75' className='rounded-full'></Image>
-                        <h2><span className="invisible xs:visible text-base xs:text-xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-[#576ad2] to-[#576ad2]">TS-Website Creator</span></h2>
+                        <h2><span className="invisible xs:visible text-base xs:text-xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-[#576ad2] to-[#576ad2]">TS Web Builder</span></h2>
                         <div onClick={toggleNav} className='rounded-full shadow-lg shadow-white-900 p-3 cursor-pointer bg-white/10'>
                             <AiOutlineClose size={25} />
                         </div>
                     </div>
-                    <h2 className='mt-8 sm:mt-0'><span className="xs:invisible xxs:visible text-[1.8rem] font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-[#576ad2] to-[#576ad2]">TS-Website Creator</span></h2>
+                    <h2 className='mt-8 sm:mt-0'><span className="xs:invisible xxs:visible text-[1.8rem] font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-[#576ad2] to-[#576ad2]">TS Web Builder</span></h2>
                     <div className='border-b border-white-400 my-4'>
                         <p className='w-[100%] py-4 text-lg font-semibold  text-center'>Create Static sites with ease.</p>
                     </div>
