@@ -2,7 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+To get started you first have to clone / fork and clone this repo.
+
+After cloning the repository, navigate into the folder in your Terminal and run the Following command:
+
+```bash
+npm i
+# or
+yarn install
+```
+
+Then run the development server:
 
 ```bash
 npm run dev
