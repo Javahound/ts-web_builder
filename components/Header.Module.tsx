@@ -35,7 +35,7 @@ const Header = () => {
                 <ul className="hidden md:flex mt-2 lg:px-2">
                     {/* <li className="nav-item"><a href="#" className="nav-link link-dark px-1">Login</a></li>
                     <li className="nav-item"><a href="#" className="nav-link link-dark px-1">Sign up</a></li> */}
-                    <li className="px-2 md:px-0"><a href="#" className="px-2 py-4 rounded-xl bg-[#3078c6] hover:bg-[#4b97e9] transition-all ease-in duration-700 min-w-[75px]">Open App</a></li>
+                    <li className="px-2 md:px-0"><a href="/editor" className="px-2 py-4 rounded-xl bg-[#3078c6] hover:bg-[#4b97e9] transition-all ease-in duration-700 min-w-[75px]">Open App</a></li>
                 </ul>
                 <div onClick={toggleNav} className='md:hidden hover:cursor-pointer'>
                     <AiOutlineMenu size={25} className="mr-2" />
@@ -88,7 +88,7 @@ const Header = () => {
                         <p  className='font-bold tracking-widest text-center text-transparent text-2xl bg-clip-text bg-gradient-to-r from-[#576ad2] to-[#b075e7]'>Let&apos;s Connect</p>
                         <div className='flex items-center justify-between mt-4 w-[100%] sm:w-[100%] md:w-[60%] lg:w-[25%] sm:pl-12 sm:pr-12'>
                             <div className='rounded-full bg-white/10 p-3 cursor-pointer hover:scale-110 ease-in duration-150'>
-                                <Link legacyBehavior href="https://github.com/javahound" passHref><a target="_blank"><FaGithub /></a></Link>
+                                <Link legacyBehavior href="https://github.com/javahound/ts-web_builder" passHref><a target="_blank"><FaGithub /></a></Link>
                             </div>
                             <div className='rounded-full bg-white/10 p-3 cursor-pointer hover:scale-110 ease-in duration-150'>
                                 <Link legacyBehavior href="https://www.youtube.com/channel/UCSVnpu3ySkQsOQPb50qrQyg" passHref><a target="_blank"><FaYoutube /></a></Link>

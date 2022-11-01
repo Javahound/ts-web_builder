@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TS Web Editor
+This will be a functional Online Website Editor written in TypeScript using Next.js
+So far there is no Info page. To access the Editor click "Open App".
+There is a simple Layout to be found. This will later be the editor for your pages. For now it does not have functionality (or even an own logo design).
+
+## Features
+None at this point. 
+
+## Components
+### This section will be added later, when screenshots are available
 
 ## Getting Started
 
