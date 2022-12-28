@@ -7,6 +7,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import DynTreeItem from "../../components/RichObjectTreeView";
 import { title } from "process";
+import Element from "../../components/Element";
 
 let pageTitle = "New Page"
 
@@ -66,6 +67,53 @@ export default function Editor() {
                             <DynTreeItem nodeId="2" label="Calendar" />
                             <DynTreeItem nodeId="3" label="Chrome" />
                             <DynTreeItem nodeId="4" label="Webstorm" />
+                        </DynTreeItem>
+                        <DynTreeItem nodeId="5" label="Documents">
+                            <DynTreeItem nodeId="10" label="OSS" />
+                            <DynTreeItem nodeId="6" label="MUI">
+                            <DynTreeItem nodeId="7" label="src">
+                                <DynTreeItem nodeId="8" label="index.js" />
+                                <DynTreeItem nodeId="9" label="tree-view.js" />
+                            </DynTreeItem>
+                            </DynTreeItem>
+                        </DynTreeItem>
+                    </TreeView>
+                </div>
+                <div className="container flex flex-col h-[75%]">
+                    <p className="border-b-2 border-[#5e5e5e] bg-[#5e5e5e] w-[100%] pl-[.75rem] ">Toolkit</p>
+                    <TreeView
+                    aria-label="icon expansion"
+                    defaultCollapseIcon={<ExpandMoreIcon />}
+                    defaultExpandIcon={<ChevronRightIcon />}
+                    sx={{ height: 240, flexGrow: 1, maxWidth: 400, overflowY: 'auto' }}
+                    >
+                        <DynTreeItem nodeId="1" label="Text Elements">
+                            <div className="grid-cols-2 grid text-center">
+                                <Element>
+                                    <h2>h1</h2>
+                                    <p>Heading 1</p>
+                                </Element>
+                                <Element>
+                                    <h2>h2</h2>
+                                    <p>Heading 2</p>
+                                </Element>
+                                <Element>
+                                    <h2>h3</h2>
+                                    <p>Heading 3</p>
+                                </Element>
+                                <Element>
+                                    <h2>h4</h2>
+                                    <p>Heading 4</p>
+                                </Element>
+                                <Element>
+                                    <h2>h5</h2>
+                                    <p>Heading 5</p>
+                                </Element>
+                                <Element>
+                                    <h2>h6</h2>
+                                    <p>Heading 6</p>
+                                </Element>
+                            </div>
                         </DynTreeItem>
                         <DynTreeItem nodeId="5" label="Documents">
                             <DynTreeItem nodeId="10" label="OSS" />
