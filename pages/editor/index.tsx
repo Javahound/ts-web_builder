@@ -54,8 +54,8 @@ export default function Editor() {
                 </div>
             </header>
             {/* Items Panel */}
-            <nav className="h-[97%] max-h-[100%-10px] top-[39px] left-0 bg-[#333] min-w-[175px] fixed w-[12.5%] border-r-[1px] border-[#5e5e5e] overflow-hidden">
-                <div className="container flex flex-col max-h-[50%]">
+            <nav className="h-[97%] max-h-[100%-10px] top-[39px] left-0 bg-[#333] min-w-[175px] fixed w-[12.5%] border-r-[1px] border-[#5e5e5e] ">
+                <div className="container flex flex-col max-h-[50%] h-[75%]">
                     <p className="border-b-2 border-[#5e5e5e] bg-[#5e5e5e] w-[100%] pl-[.75rem]">Page Elements</p>
                     <TreeView
                     aria-label="icon expansion"
@@ -79,14 +79,14 @@ export default function Editor() {
                         </DynTreeItem>
                     </TreeView>
                 </div>
-                <div className="container flex flex-col h-[75%]">
+                <div className="container flex flex-col h-[49%]">
                     <p className="border-b-2 border-[#5e5e5e] bg-[#5e5e5e] w-[100%] pl-[.75rem] ">Toolkit</p>
                     <TreeView
                     aria-label="icon expansion"
                     defaultCollapseIcon={<ExpandMoreIcon />}
                     defaultExpandIcon={<ChevronRightIcon />}
                     sx={{ height: 240, flexGrow: 1, maxWidth: 400, overflowY: 'auto' }}
-                    >
+                    style={{paddingBottom: "2rem"}}>
                         <DynTreeItem nodeId="1" label="Text Elements">
                             <div className="grid-cols-2 grid text-center">
                                 <Element>
@@ -113,16 +113,47 @@ export default function Editor() {
                                     <h2>h6</h2>
                                     <p>Heading 6</p>
                                 </Element>
+                                <Element>
+                                    <h2>p</h2>
+                                    <p>Paragraph</p>
+                                </Element>
                             </div>
                         </DynTreeItem>
-                        <DynTreeItem nodeId="5" label="Documents">
-                            <DynTreeItem nodeId="10" label="OSS" />
-                            <DynTreeItem nodeId="6" label="MUI">
-                            <DynTreeItem nodeId="7" label="src">
-                                <DynTreeItem nodeId="8" label="index.js" />
-                                <DynTreeItem nodeId="9" label="tree-view.js" />
-                            </DynTreeItem>
-                            </DynTreeItem>
+                        <DynTreeItem nodeId="5" label="Input Elements">
+                            <div className="grid-cols-2 grid text-center">
+                                <Element>
+                                    <h2>PL</h2>
+                                    <p>Text Input</p>
+                                </Element>
+                                <Element>
+                                    <h2>PL</h2>
+                                    <p>Textarea</p>
+                                </Element>
+                                <Element>
+                                    <h2>PL</h2>
+                                    <p>Checkbox</p>
+                                </Element>
+                                <Element>
+                                    <h2>PL</h2>
+                                    <p>Radio Button</p>
+                                </Element>
+                                <Element>
+                                    <h2>PL</h2>
+                                    <p>Dropdown</p>
+                                </Element>
+                                <Element>
+                                    <h2>PL</h2>
+                                    <p>Button</p>
+                                </Element>
+                                <Element>
+                                    <h2>PL</h2>
+                                    <p>Submit Button</p>
+                                </Element>
+                                <Element>
+                                    <h2>PL</h2>
+                                    <p>File Upload</p>
+                                </Element>
+                            </div>
                         </DynTreeItem>
                     </TreeView>
                 </div>
